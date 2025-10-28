@@ -1,0 +1,66 @@
+/* Global Layout */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Quote Display Box */
+#quoteDisplay {
+  width: 60%;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  border-radius: 8px;
+  min-height: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Input Section */
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Category Dropdown */
+#categorySelect {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
